@@ -26,18 +26,6 @@ if (!isset($_SESSION['name'])) {
         ?>
     </h1>
 
-    <?php
-    $sql = "select * from posts";
-    $result = mysqli_query($conn, $sql);
-    if ($result) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            $id = $row['post_id'];
-    ?>
-            <!-- <div id="<?php $id ?>" style="display:flex;background-color:red;width:20px;height:20px"> 
-                </div> -->
-    <?php  }
-    }
-    ?>
     <div class="fullpage">
         <div class="contpage">
             <div class="leftpage">
@@ -88,16 +76,35 @@ if (!isset($_SESSION['name'])) {
             </div>
             <br>
             <br>
+            
+
+          
+ 
             <div class="middlepage">
-                <div class="cardhead">
+
+            <?php
+    $sql = "select * from posts";
+    $result = mysqli_query($conn, $sql);
+    if ($result) {
+        while ($row = mysqli_fetch_assoc($result)) {
+            $id = $row['post_id'];
+    ?>
+                <div class="cardhead"  id="<?php echo $id ?>">
                     <div class="heading-card">
-                        <p>Latest Posts</p>
                     </div>
                     <div class="card left-card">
-
+                    <?php echo $row['body'] ?>
+                    <div class="long-btn">
+                            <a href="#">For Details</a>
+                        </div>
                     </div>
+                   
                 </div>
+                <?php  }
+    }
+    ?>
             </div>
+
             <div class="rightpage">
                 <div class="cardhead">
                     <div class="heading-card">
@@ -114,9 +121,7 @@ if (!isset($_SESSION['name'])) {
                                         <p>Jhon Deo</p>
                                         <p>T&P Office</p>
                                         <p>9362587410</p>
-                                        <div class="long-btn">
-                            <a href="#">For Details</a>
-                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>

@@ -526,3 +526,14 @@ body{
   padding: 5px;
 
 }
+@media screen and (max-width: 992px) {
+    .leftpage{
+      display: none;
+    }
+    .rightpage{
+      display: none;
+    }
+    .middlepage{
+      width: 100%;
+    }
+}
