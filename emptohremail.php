@@ -21,14 +21,7 @@ try {
     $mail->Username   = 'websquad04@gmail.com';                     //SMTP username
     $mail->Password   = 'PredatorTriton300';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-    // $mail->SMTPOptions = array(
-    //     'ssl' => array(
-    //         'verify_peer' => false,
-    //         'verify_peer_name' => false,
-    //         'allow_self_signed' => true
-    //     )
-    // );
+    $mail->Port       = 465;                                    //
    
     $sql = "select * from student where roll='". $_SESSION['name'] ."'";
     $query = mysqli_query($conn, $sql);
