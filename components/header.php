@@ -13,20 +13,7 @@
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="home.php">Jobs</a></li>
-                <li><a href="profile.php"><?php
-
-                                            // $_SESSION['name']
-                                            $roll = $_SESSION['name'];
-                                            $sql = "select name from student where roll = '$roll' ";
-                                            $result = mysqli_query($conn, $sql);
-                                            if ($result) {
-                                                $row = mysqli_fetch_assoc($result);
-                                                echo $row['name'];
-                                            }
-
-
-                                            ?>
-                    </a></li>
+                <li><a href="profile.php">Profile</a></li>
                 <li><a href="logout.php">Logout</a></li>
 
             <?php

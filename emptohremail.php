@@ -1,4 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<<<<<<< HEAD
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" style="width:100%;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
 
 <head>
@@ -8,6 +9,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="telephone=no" name="format-detection">
   <title>New Template</title>
+=======
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" style="width:100%;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta content="width=device-width, initial-scale=1" name="viewport"> 
+  <meta name="x-apple-disable-message-reformatting"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta content="telephone=no" name="format-detection"> 
+  <title>Loaderlogic</title>
+>>>>>>> b8a947388c90cd9452b12ffd02d4186e5a74367e
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   <style type="text/css">
     #outlook a {
@@ -312,6 +323,7 @@
 
 <body data-new-gr-c-s-loaded="14.1062.0" style="width:100%;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
   <div class="es-wrapper-color" style="background-color:#2980D9">
+<<<<<<< HEAD
     <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top">
       <tr style="border-collapse:collapse">
         <td valign="top" style="padding:0;Margin:0">
@@ -481,4 +493,147 @@
   </div>
 </body>
 
+=======
+   <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top"> 
+     <tr style="border-collapse:collapse"> 
+      <td valign="top" style="padding:0;Margin:0"> 
+   
+       <table class="es-content" cellspacing="0" cellpadding="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"> 
+         <tr style="border-collapse:collapse"> 
+          <td align="center" style="padding:0;Margin:0"> 
+           <table class="es-content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px" cellspacing="0" cellpadding="0" bgcolor="transparent" align="center"> 
+             <tr style="border-collapse:collapse"> 
+              <td style="padding:0;Margin:0;padding-top:25px;background-position:center top" align="left"> 
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:600px"> 
+                   <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td align="center" style="padding:0;Margin:0;font-size:0"><a target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#2980D9;font-size:14px"><img class="adapt-img" src="https://viwwrp.stripocdn.email/content/guids/CABINET_b99e83e44998cbb12acdc7a0e6608b53/images/75141566983582522.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="600"></a></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+             <tr style="border-collapse:collapse"> 
+              <td style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-position:center top;background-color:#ffffff" bgcolor="#ffffff" align="left"> 
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:560px"> 
+                   <table style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-position:center bottom;background-color:transparent" width="100%" cellspacing="0" cellpadding="0" bgcolor="transparent" role="presentation"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-bottom:5px;padding-top:10px"><h3 style="Margin:0;line-height:24px;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:20px;font-style:normal;font-weight:bold;color:#2980d9">Respected Sir,</h3></td> 
+                     </tr> 
+                     <tr style="border-collapse:collapse"> 
+                      <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-top:10px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#666666;font-size:14px">&nbsp;I am Dipantan Choraborty . I am interested for this job.Please give me opportunity to prove myself.</p></td> 
+                     </tr> 
+                     <tr style="border-collapse:collapse"> 
+                      <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#666666;font-size:14px">&nbsp;<br>&nbsp; Thanks.</p></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+             <tr style="border-collapse:collapse"> 
+              <td style="padding:0;Margin:0;background-position:center bottom" align="left"> 
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:600px"> 
+                   <table style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-position:center bottom;background-color:#ffffff;border-radius:0px 0px 5px 5px" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff" role="presentation"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td height="15" align="center" style="padding:0;Margin:0"></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+             <tr style="border-collapse:collapse"> 
+              <td style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-position:center bottom" align="left"> 
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:560px"> 
+                   <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td height="10" align="center" style="padding:0;Margin:0"></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+             <tr style="border-collapse:collapse"> 
+              <td style="padding:0;Margin:0;background-position:center bottom" align="left"> 
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:600px"> 
+                   <table style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-position:center bottom;background-color:#ffffff;border-radius:5px 5px 0px 0px" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff" role="presentation"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td height="16" align="center" style="padding:0;Margin:0"></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+             <tr style="border-collapse:collapse"> 
+              <td style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-position:center bottom;background-color:#ffffff" bgcolor="#ffffff" align="left"> 
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:560px"> 
+                   <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                    
+                   </table></td> 
+                 </tr> 
+                 <tr style="border-collapse:collapse"> 
+                  <td class="es-m-p20b" align="left" style="padding:0;Margin:0;width:560px"> 
+                   <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"><span class="es-button-border" style="border-style:solid;border-color:#2980D9;background:#2980D9;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="index.php" class="es-button es-button-3" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#2980D9;border-width:10px 40px;display:inline-block;background:#2980D9;border-radius:5px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center">Go for Details</a></span></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+             <tr style="border-collapse:collapse"> 
+              <td style="padding:0;Margin:0;background-position:center bottom" align="left"> 
+               <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td valign="top" align="center" style="padding:0;Margin:0;width:600px"> 
+                   <table style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;background-position:center bottom;background-color:#ffffff;border-radius:0px 0px 5px 5px" width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff" role="presentation"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td height="32" align="center" style="padding:0;Margin:0"></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+           </table></td> 
+         </tr> 
+       </table> 
+       <table class="es-footer" cellspacing="0" cellpadding="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top"> 
+         <tr style="border-collapse:collapse"> 
+          <td align="center" style="padding:0;Margin:0"> 
+           <table class="es-footer-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center"> 
+             <tr style="border-collapse:collapse"> 
+              <td style="Margin:0;padding-top:15px;padding-left:20px;padding-right:20px;padding-bottom:25px;background-color:transparent" bgcolor="transparent" align="left"><!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:270px" valign="top"><![endif]--> 
+               <table class="es-left" cellspacing="0" cellpadding="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left"> 
+             
+               </table>
+               <table class="es-right" cellspacing="0" cellpadding="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right"> 
+                 <tr style="border-collapse:collapse"> 
+                  <td align="left" style="padding:0;Margin:0;width:270px"> 
+                   <table style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-position:center top" width="100%" cellspacing="0" cellpadding="0"> 
+                     <tr style="border-collapse:collapse"> 
+                      <td align="center" style="padding:0;Margin:0;display:none"></td> 
+                     </tr> 
+                   </table></td> 
+                 </tr> 
+               </table></td> 
+             </tr> 
+           </table></td> 
+         </tr> 
+       </table></td> 
+     </tr> 
+   </table> 
+  </div>  
+ </body>
+>>>>>>> b8a947388c90cd9452b12ffd02d4186e5a74367e
 </html>

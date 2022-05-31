@@ -32,54 +32,45 @@
                 <img src="./img/card1.jpg" alt="">
             </div>
             <div class="article rreveal">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
+                Initially the companies are invited to take part in the recruitment drive. Those interested respond and thus register with us for the year for recruitment. The students are intimated and a vast number register for the interview.
+                The interview process usually starts with a Power Point Presentation where the company enlightens the students about their company profile. Those interested then go for the interview, which usually comprises of a written test followed by group discussion and personal interview.
+                The job scenario today is facing the onslaught of ground breaking competition from all fields; and employment into good companies and organizations has become a daunting task. So, for the benefit of its students preparing to face the job market, the St. Xavier’s College Placement Cell has risen to the occasion and has successfully aided in providing opportunities and employment to its outgoing students.
+                With the relentless support of the staff and the students associated with the placement cell and most significantly Rev. Dr. Dominic Savio, S.J. at the helm, we strive to reach a step closer to our ultimate goal of 100% placements for our students.
+
             </div>
         </div>
         <div class="innerrowcard">
-        <div class="article lreveal desk-show">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
-            </div>
+            <div class="article lreveal desk-show">
+                The student committee has been able to create an extensive database of all the potential recruiting companies along with their contact details. Over the past one year, the cell has been successful in establishing an initial contact with more than five hundred companies. This has definitely increased awareness among the companies about St. Xavier’s College being a potential institution for recruitment option. In fact, those companies that have not been able to recruit from the College this year will surely consider St. Xavier’s College, Kolkata an effective option in the following year.The Placement Cell begins the academic year with the process of volunteer recruitment from the first and second year students. The process is conducted by the Core Committee of third year students. Students are then divided into five groups under team leaders, who perform their office and campus duties on different days of the week. Students apply as they want to help out conduct and manage placement activities. The members contact various corporate and human resource personnel regarding the organization of campus drives. Companies begin with the pre-placement talks followed by the group discussion and interview rounds. Once the recruitment process is completed, students are intimated about their selection within suitable time. Different companies may have different selection criteria and processes for students. </div>
             <div class="imgcard rreveal">
                 <img src="./img/card2.jpg" alt="">
             </div>
             <div class="article lreveal mob-show">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
-            </div>
+                The student committee has been able to create an extensive database of all the potential recruiting companies along with their contact details. Over the past one year, the cell has been successful in establishing an initial contact with more than five hundred companies. This has definitely increased awareness among the companies about St. Xavier’s College being a potential institution for recruitment option. In fact, those companies that have not been able to recruit from the College this year will surely consider St. Xavier’s College, Kolkata an effective option in the following year.The Placement Cell begins the academic year with the process of volunteer recruitment from the first and second year students. The process is conducted by the Core Committee of third year students. Students are then divided into five groups under team leaders, who perform their office and campus duties on different days of the week. Students apply as they want to help out conduct and manage placement activities. The members contact various corporate and human resource personnel regarding the organization of campus drives. Companies begin with the pre-placement talks followed by the group discussion and interview rounds. Once the recruitment process is completed, students are intimated about their selection within suitable time. Different companies may have different selection criteria and processes for students. </div>
         </div>
         <div class="innerrowcard">
             <div class="imgcard lreveal">
                 <img src="./img/card3.jpg" alt="">
             </div>
             <div class="article rreveal">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
+                A great number of new as well as regular companies visited our college for Placement this year. It started off in August with Futures First being the first, followed by companies such as Tata Consultancy Services, Deloitte, KPMG, Ernst & young, PWC, J P Morgan, Google, Zomato, United bank of Switzerland, Verity Solutions, Axis Bank, Citi Bank, ICICI Bank, HSBC, HDFC Bank, Swiss Re, Oyo Rooms, D E Shaw, Reckitt Benckiser, MuSigma, Pricewaterhouse Coopers, Infosys, Viacom 18, Ogilvy, ICRA, MGH, Mckinsey, Boston Consultancy, Sony India Ltd, Titan, ITC, Z S Associates, Zomato, Addidas, Uber, Grofers and Cognizant. We have placed more than 500 students through on campus drives and off campus interviews from departments like B.Com, BBA, M.Com, Economics ( Hons.) , Mathematics (Hons.), Biotechnology, English(Hons.), Statistics (Hons.), Political Science(Hons .) and Computer Science, with the annual CTC ranging from Rs. 3 lacs to Rs.20.5 lacs. We have students working at companies on various internship offers as well for second and thirds year students.
             </div>
         </div>
     </div>
-    <div class="place-card">
-        <div class="inner-place">
-            <div class="cardplace">
-                <div class="cardplace-img">
-                    <img src="./img/cardplace.jpg" alt="">
-                </div>
-                <div class="cardplace-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <?php include("./components/footer.php"); ?>
     <script>
         function closeside() {
             document.getElementById("sidebar").style.width = "0px";
-            document.getElementById("sidebar").style.marginLeft = "-130px";
+            document.getElementById("sidebar").style.marginLeft = "-200px";
         }
 
         function openside() {
             document.getElementById("sidebar").style.width = "100%";
             document.getElementById("sidebar").style.marginLeft = "-70px";
         }
-        </script> 
-        <script>
+    </script>
+    <script>
         window.addEventListener('scroll', reveal);
 
         function reveal() {
@@ -128,7 +119,7 @@
                 }
             }
         }
-        </script>
+    </script>
     <script>
         var preloadind = document.getElementById('loadingind');
 
