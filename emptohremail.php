@@ -28,7 +28,7 @@ try {
     $fetch = mysqli_fetch_array($query);
     //Recipients
     $mail->setFrom('websquad04@gmail.com', 'E-Recruit');
-    $mail->addAddress($fetch["email"]);     //Add a recipient
+    $mail->addAddress('loaderlogic22@gmail.com');     //Add a recipient
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Application For'. $_GET['job'];
