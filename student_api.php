@@ -56,6 +56,18 @@ switch ($case) {
         }
         break;
 
+    case 'apply_post':
+        $stu_id = $_POST['stu_id'];
+        $post_id = $_POST['post_id'];
+        $sql = "insert into apply_post (post_id,applied_stu_id) values ('$post_id','$stu_id')";
+        $result = mysqli_query($conn, $sql);
+        if ($result) {
+            echo 'ok';
+        } else {
+            echo 'error';
+        }
+        break;
+
     default:
         # code...
         break;
