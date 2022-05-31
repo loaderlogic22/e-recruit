@@ -286,6 +286,11 @@ body {
                             <td><?php echo $row['description'];?></td>
                         </tr>
                         <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><?php echo $row['email'];?></td>
+                        </tr>
+                        <tr>
                             <td>Resume</td>
                             <td>:</td>
                             <td><a href="<?php echo $row['resume_path'];?>" target="_blank">Download</a></td>
