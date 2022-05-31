@@ -2,6 +2,7 @@
 session_start();
 include "connection.php";
 ini_set('max_execution_time', 300);
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
@@ -13,33 +14,33 @@ require 'vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-    //Server settings
-    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'websquad04@gmail.com';                     //SMTP username
-    $mail->Password   = 'PredatorTriton300';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-    // $mail->SMTPOptions = array(
-    //     'ssl' => array(
-    //         'verify_peer' => false,
-    //         'verify_peer_name' => false,
-    //         'allow_self_signed' => true
-    //     )
-    // );
-   
-    $sql = "select * from student where roll='". $_SESSION['name'] ."'";
-    $query = mysqli_query($con, $sql);
-    $fetch = mysqli_fetch_array($query);
-    //Recipients
-    $mail->setFrom('websquad04@gmail.com', 'E-Recruit');
-    $mail->addAddress('indraneelbiswasofficial@gmail.com');     //Add a recipient
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Application For'. $_GET['job'];
-    $mail->Body    = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  //Server settings
+  //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+  $mail->isSMTP();                                            //Send using SMTP
+  $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+  $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+  $mail->Username   = 'websquad04@gmail.com';                     //SMTP username
+  $mail->Password   = 'PredatorTriton300';                               //SMTP password
+  $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+  $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+  // $mail->SMTPOptions = array(
+  //     'ssl' => array(
+  //         'verify_peer' => false,
+  //         'verify_peer_name' => false,
+  //         'allow_self_signed' => true
+  //     )
+  // );
+
+  $sql = "select * from student where roll='" . $_SESSION['name'] . "'";
+  $query = mysqli_query($con, $sql);
+  $fetch = mysqli_fetch_array($query);
+  //Recipients
+  $mail->setFrom('websquad04@gmail.com', 'E-Recruit');
+  $mail->addAddress('indraneelbiswasofficial@gmail.com');     //Add a recipient
+  //Content
+  $mail->isHTML(true);                                  //Set email format to HTML
+  $mail->Subject = 'Application For' . $_GET['job'];
+  $mail->Body    = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" style="width:100%;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0"> 
      <head> 
       <meta charset="UTF-8"> 
@@ -254,10 +255,10 @@ try {
       </div>  
      </body>
     </html>';
-    $mail->AltBody = 'This is the body of the message.';
+  $mail->AltBody = 'This is the body of the message.';
 
-    $mail->send();
-    // header("location:pdf.php");
+  $mail->send();
+  // header("location:pdf.php");
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
