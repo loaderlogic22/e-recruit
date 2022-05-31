@@ -53,7 +53,7 @@
                 .then(resp => resp.text())
                 .then(resp => {
                     // alert(resp);
-                    window.location.href = 'index.php';
+                    window.location.href = 'home.php';
 
                 })
 

@@ -14,8 +14,9 @@ switch ($case) {
             $row = mysqli_num_rows($result);
             if ($row === 1) {
                 $_SESSION['username'] = $username;
-                header('location: index.php');
+                // header('location: index.php');
             }
+            echo json_encode($row);
         }
 
         break;
