@@ -2,6 +2,7 @@
 <html lang="en">
 <?php include("./components/head.php"); ?>
 <body>
+<?php include("./components/header.php"); ?>
     <div class="flex">
         <div class="side-login"></div>
         <div class="form-login">
@@ -58,7 +59,19 @@
                 })
 
         })
+        
     </script>
+        <script>
+        function closeside() {
+            document.getElementById("sidebar").style.width = "0px";
+            document.getElementById("sidebar").style.marginLeft = "-130px";
+        }
+
+        function openside() {
+            document.getElementById("sidebar").style.width = "100%";
+            document.getElementById("sidebar").style.marginLeft = "-70px";
+        }
+        </script> 
 </body>
 
 </html>
