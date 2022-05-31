@@ -1,3 +1,21 @@
+<?php
+
+include 'connection.php';
+
+$id = $_POST['id'];
+$name = $_POST['name'];
+$roll = $_POST['roll'];
+$department = $_POST['department'];
+$year = $_POST['year'];
+$email = $_POST['email'];
+$description = $_POST['description'];
+$resume = $_POST['resume'];
+$image = $_POST['image'];
+$password = $_POST['password'];
+$cpassword = $_POST['cpassword'];
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,6 +46,11 @@
                 <div class="mb-3">
                     <label for="roll" class="form-label">Roll No</label>
                     <input type="roll" class="form-control" id="roll" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
                 </div>
                
                 <div class="mb-3">
