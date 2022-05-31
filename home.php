@@ -9,30 +9,19 @@ if (!isset($_SESSION['name'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-
-
-
-
-    </style>
-</head>
-
+<?php include("./components/head.php"); ?>
 <body>
+<?php include("./components/header.php"); ?>
+<div class="margintop"></div>
     <h1 style="text-align: center;">
         <?php
         $roll = $_SESSION['name'];
         $sql = "select name from student where roll = '$roll' ";
         $result = mysqli_query($conn, $sql);
-        if ($result) {
-            $row = mysqli_fetch_assoc($result);
-            echo 'Welcome ' . $row['name'];
-        }
+        // if ($result) {
+        //     $row = mysqli_fetch_assoc($result);
+        //     echo 'Welcome ' . $row['name'];
+        // }
         ?>
     </h1>
 
@@ -42,14 +31,32 @@ if (!isset($_SESSION['name'])) {
     if ($result) {
         while ($row = mysqli_fetch_assoc($result)) {
             $id = $row['post_id'];
-            echo "
-                <div id='$id' style='display:flex;background-color:red;width:20px;height:20px'>
-                    
-                </div>
-                ";
-        }
+            ?>
+                <!-- <div id="<?php $id ?>" style="display:flex;background-color:red;width:20px;height:20px"> 
+                </div> -->
+                <?php  }
     }
     ?>
+    <div class="fullpage">
+        <div class="contpage">
+            <div class="leftpage">
+                <div class="connect">
+                    Connect
+                </div>
+                <div class="card left-card">
+
+                </div>
+            </div>
+            <div class="middlepage">
+
+            </div>
+            <div class="rightpage">
+
+            </div>
+        </div>
+    </div>
+    <div class="margintop"></div>
+    <?php include("./components/footer.php"); ?>
 </body>
 
 </html>

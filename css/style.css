@@ -448,3 +448,25 @@ body{
 .cardplace{
   border: 2px solid #eee;
 }
+.contpage{
+  min-height: 500px;
+  display: flex;
+}
+.leftpage{
+  width: 25%;
+  background-color: #00CDAC;
+}
+.middlepage{
+  width: 50%;
+  background-color: #f82e56;
+}
+.rightpage{
+  width: 25%;
+  background-color: aquamarine;
+}
+.card{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.left-card{
+  
+}
