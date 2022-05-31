@@ -7,7 +7,7 @@
         <div class="side-login"></div>
         <div class="form-login">
             <div class="login">
-                <form action="student_api.php" id="form" method="POST">
+                <form action="recruiter_api.php" id="form" method="POST">
                     <h2>Login</h2>
                     <br>
                     <label for="roll">ID/Username</label>
@@ -18,7 +18,6 @@
                     <br>
                     <input type="password" name="Password" id="password" required>
                     <br>
-
                     <input type="submit" id='submit' value="Submit">
                 </form>
             </div>
