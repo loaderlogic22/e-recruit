@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("../components/head.php"); 
+<?php include("../components/head.php");
 //include("connection.php"); 
 
 ?>
@@ -35,7 +35,7 @@
             let password = document.getElementById('password').value;
             const fd = new FormData();
             fd.append('case', 'login');
-            fd.append('username',username);
+            fd.append('username', username);
             fd.append('password', password);
             fetch('recruiter_api.php', {
                     method: 'post',
@@ -44,7 +44,7 @@
                 .then(resp => resp.text())
                 .then(resp => {
                     // alert(resp);
-                    window.location.href = 'index.php';
+                    window.location.href = 'home.php';
 
                 })
 
