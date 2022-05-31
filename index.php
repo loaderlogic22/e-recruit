@@ -36,11 +36,14 @@
             </div>
         </div>
         <div class="innerrowcard">
-            <div class="article lreveal">
+        <div class="article lreveal desk-show">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
             </div>
             <div class="imgcard rreveal">
                 <img src="./img/card2.jpg" alt="">
+            </div>
+            <div class="article lreveal mob-show">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
             </div>
         </div>
         <div class="innerrowcard">
@@ -49,6 +52,18 @@
             </div>
             <div class="article rreveal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
+            </div>
+        </div>
+    </div>
+    <div class="place-card">
+        <div class="inner-place">
+            <div class="cardplace">
+                <div class="cardplace-img">
+                    <img src="./img/cardplace.jpg" alt="">
+                </div>
+                <div class="cardplace-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!</p>
+                </div>
             </div>
         </div>
     </div>

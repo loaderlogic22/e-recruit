@@ -32,7 +32,7 @@
 <a href="forgot.php" class="forgot">Forgot Password?</a>
 <br>
  <br>
-<a href="forgot.php" class="forgot">Are u a recruiter?</a>
+<a href="forgot.php" class="forgot">Are u a Student?</a>
             </div>
         </div>
     </div>

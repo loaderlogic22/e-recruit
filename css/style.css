@@ -120,7 +120,7 @@ body{
     margin-left: 30px;
 }
 .login form input{
-  width: 123%;
+  width: 111%;
   padding: 10px;
   background-color: transparent;
   border: 1px solid #eee;
@@ -334,6 +334,7 @@ body{
   .rowcard{
     width: 70vw;
     margin: auto;
+    overflow-x: hidden;
   }
   .innerrowcard{
     display: flex;
@@ -349,6 +350,30 @@ body{
   .article{
     text-align: justify;
     text-justify: inter-word;
+  }
+  @media screen and (max-width: 992px) {
+    .innerrowcard{
+      display: block;
+    }
+    .rowcard{
+      width: 100vw;
+    }
+    .imgcard img{
+      width: 100%;
+      margin: 0px;
+    }
+    .article{
+      padding: 25px;
+    }
+    .desk-show{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 992px) {
+.mob-show{
+  display: none;
+  }
+    
   }
   .reveal{
     position: relative;
@@ -419,4 +444,7 @@ body{
 .forgot{
   text-decoration: none;
   color: black;
+}
+.cardplace{
+  border: 2px solid #eee;
 }
