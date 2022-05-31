@@ -23,7 +23,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //
    
-    $sql = "select * from student where roll='". $_SESSION['name'] ."'";
+    $sql = "select * from student where roll='". $_GET ."'";
     $query = mysqli_query($conn, $sql);
     $fetch = mysqli_fetch_array($query);
     //Recipients
