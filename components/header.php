@@ -27,6 +27,8 @@
 
                                             ?>
                     </a></li>
+                <li><a href="logout.php">Logout</a></li>
+
             <?php
             } else {
             ?>
