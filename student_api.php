@@ -5,18 +5,18 @@ include "connection.php";
 $case = $_POST['case'];
 switch ($case) {
     case 'login':
-        $username = $_POST['username'];
+        $username = $_POST['roll'];
         $password = $_POST['password'];
 
-        $sql = "select * from student where username = '$username' and password = '$password'";
+        $sql = "select * from student where roll = '$username' and password = '$password'";
         $result = mysqli_query($conn, $sql);
         // echo $sql;
         if ($result) {
             $row = mysqli_num_rows($result);
             if ($row === 1) {
                 $_SESSION['name'] = $username;
-                // echo 'logged in';
-                header('location: index.php');
+                echo 'ok';
+                // header('location: index.php');
             }
         }
 
@@ -55,6 +55,17 @@ switch ($case) {
             }
         }
         break;
+
+    case 'update':
+        $stu_id = $_POST['id'];
+        $name = $_POST['name'];
+        $roll = $_POST['roll'];
+        $year = $_POST['year'];
+        $desc = $_POST['desc'];
+        $dept = $_POST['dept'];
+
+        $sql = "update student set name='$name',roll='$roll',year='$year',description='$desc',dept='$dept' where ";
+
 
     case 'apply_post':
         $stu_id = $_POST['stu_id'];
