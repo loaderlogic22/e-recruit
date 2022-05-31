@@ -107,7 +107,7 @@ body{
 .form-login{
     width: 80%;
     height: 80%;
-    border: 1px solid #eee;
+    /* border: 1px solid #eee; */
     position: absolute;
     display: flex;
     justify-content: center;
@@ -118,6 +118,12 @@ body{
 .login{
     margin-top: 50px;
     margin-left: 30px;
+}
+.login form input{
+  width: 123%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #eee;
 }
 .swiper {
     width: 100%;
@@ -373,4 +379,44 @@ body{
 .rreveal.ractive{
     transform: translateX(0px);
     opacity: 1;
+}     
+.btn-grad {
+  background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+  /* margin: 10px; */
+  /* padding: 15px 45px; */
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  display: block;
+  height: 50px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (max-width:992px) {
+  .side-login{
+    width: 25%;
+}
+.login{
+  margin-left: 20px;
+}
+.form-login{
+  height: 88%;
+}
+}
+@media screen and (max-width: 500px) {
+.form-login{
+  height: 94%;
+}
+}
+.forgot{
+  text-decoration: none;
+  color: black;
 }

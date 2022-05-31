@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-session_start();
-// echo $_SESSION['name'];
-include("./components/head.php");
-?>
+<?php include("./components/head.php"); ?>
 
 <body class="boxed" onload="myfunctionind()">
     <div class="loader-ind" id="loadingind">
@@ -17,7 +13,6 @@ include("./components/head.php");
     </div>
     <?php include("./components/header.php"); ?>
     <div class="margintop"></div>
-<<<<<<< HEAD
     <div class="slider">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -56,17 +51,6 @@ include("./components/head.php");
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
             </div>
         </div>
-=======
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./img/slide1.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="./img/slide2.png" alt=""></div>
-            <div class="swiper-slide"><img src="./img/slide3.png" alt=""></div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
->>>>>>> 76cc22b158470544308fa9f437eaa09450935ef2
     </div>
     <?php include("./components/footer.php"); ?>
     <script>
@@ -79,27 +63,8 @@ include("./components/head.php");
             document.getElementById("sidebar").style.width = "100%";
             document.getElementById("sidebar").style.marginLeft = "-70px";
         }
-<<<<<<< HEAD
         </script> 
         <script>
-=======
-        var myIndex = 0;
-        slide();
-
-        function slide() {
-            var x = document.getElementsByClassName("myslide");
-            var i = 0;
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1;
-            }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(slide, 3000);
-        }
->>>>>>> 76cc22b158470544308fa9f437eaa09450935ef2
         window.addEventListener('scroll', reveal);
 
         function reveal() {
@@ -148,11 +113,7 @@ include("./components/head.php");
                 }
             }
         }
-<<<<<<< HEAD
         </script>
-=======
-    </script>
->>>>>>> 76cc22b158470544308fa9f437eaa09450935ef2
     <script>
         var preloadind = document.getElementById('loadingind');
 
