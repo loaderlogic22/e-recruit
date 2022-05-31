@@ -21,11 +21,43 @@ $username = $_SESSION['username'];
 </head>
 
 <body>
-    <div class="container">
-        <div class="table-responsive">
-
-        </div>
+    <div class="container p-5">
+        <?php
+        $sql = "select * from posts where rec_id = '$username' ";
+        $result = mysqli_query($conn, $sql);
+        if ($result) {
+            while ($row = mysqli_fetch_assoc($result)) {
+                $body = $row['body'];
+                echo '
+                    <div class="card m-5">
+                    <div class="card-body">
+                      ' . $body . '
+                      <button id="' . $row['post_id'] . '" class="btn btn-primary">Delete Post</a>
+                    </div>
+                  </div>
+                  ';
+            }
+        }
+        ?>
     </div>
+    <script>
+        document.querySelector('button').addEventListener('click', e => {
+            // alert(e.srcElement.id)
+            const fd = new FormData();
+            fd.append('case', 'delete');
+            fd.append('id', e.srcElement.id);
+            fetch('../recruiter_api.php', {
+                    method: 'post',
+                    body: fd
+                })
+                .then(e => e.text())
+                .then(e => {
+                    alert(e);
+                    window.location.reload();
+                })
+
+        })
+    </script>
 </body>
 
 </html>
