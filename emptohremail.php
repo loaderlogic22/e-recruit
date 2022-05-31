@@ -14,33 +14,26 @@ require 'vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-  //Server settings
-  //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-  $mail->isSMTP();                                            //Send using SMTP
-  $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-  $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-  $mail->Username   = 'websquad04@gmail.com';                     //SMTP username
-  $mail->Password   = 'PredatorTriton300';                               //SMTP password
-  $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-  $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-  // $mail->SMTPOptions = array(
-  //     'ssl' => array(
-  //         'verify_peer' => false,
-  //         'verify_peer_name' => false,
-  //         'allow_self_signed' => true
-  //     )
-  // );
-
-  $sql = "select * from student where roll='" . $_SESSION['name'] . "'";
-  $query = mysqli_query($con, $sql);
-  $fetch = mysqli_fetch_array($query);
-  //Recipients
-  $mail->setFrom('websquad04@gmail.com', 'E-Recruit');
-  $mail->addAddress('indraneelbiswasofficial@gmail.com');     //Add a recipient
-  //Content
-  $mail->isHTML(true);                                  //Set email format to HTML
-  $mail->Subject = 'Application For' . $_GET['job'];
-  $mail->Body    = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    //Server settings
+    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'websquad04@gmail.com';                     //SMTP username
+    $mail->Password   = 'PredatorTriton300';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 465;                                    //
+   
+    $sql = "select * from student where roll='". $_SESSION['name'] ."'";
+    $query = mysqli_query($conn, $sql);
+    $fetch = mysqli_fetch_array($query);
+    //Recipients
+    $mail->setFrom('websquad04@gmail.com', 'E-Recruit');
+    $mail->addAddress($fetch["email"]);     //Add a recipient
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Application For'. $_GET['job'];
+    $mail->Body    = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" style="width:100%;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0"> 
      <head> 
       <meta charset="UTF-8"> 
@@ -128,7 +121,7 @@ try {
                       <td valign="top" align="center" style="padding:0;Margin:0;width:600px"> 
                        <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
                          <tr style="border-collapse:collapse"> 
-                          <td align="center" style="padding:0;Margin:0;font-size:0"><a target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#2980D9;font-size:14px"><img class="adapt-img" src="https://viwwrp.stripocdn.email/content/guids/CABINET_b99e83e44998cbb12acdc7a0e6608b53/images/75141566983582522.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="600"></a></td> 
+                          <td align="center" style="padding:0;Margin:0;font-size:0"><a target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#2980D9;font-size:14px"><img class="adapt-img" src='.$fetch["image"].' alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="600"></a></td> 
                          </tr> 
                        </table></td> 
                      </tr> 
@@ -144,7 +137,7 @@ try {
                           <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-bottom:5px;padding-top:10px"><h3 style="Margin:0;line-height:24px;mso-line-height-rule:exactly;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;font-size:20px;font-style:normal;font-weight:bold;color:#2980d9">Respected Sir,</h3></td> 
                          </tr> 
                          <tr style="border-collapse:collapse"> 
-                          <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-top:10px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;line-height:21px;color:#666666;font-size:14px">&nbsp;I am Dipantan Choraborty . I am interested for this job.Please give me opportunity to prove myself.</p></td> 
+                          <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-top:10px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;line-height:21px;color:#666666;font-size:14px">&nbsp;I am '.$fetch['name'].' . I am interested for this job.Please give me opportunity to prove myself.</p></td> 
                          </tr> 
                          <tr style="border-collapse:collapse"> 
                           <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;line-height:21px;color:#666666;font-size:14px">&nbsp;<br>&nbsp; Thanks.</p></td> 
@@ -205,7 +198,7 @@ try {
                       <td class="es-m-p20b" align="left" style="padding:0;Margin:0;width:560px"> 
                        <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
                          <tr style="border-collapse:collapse"> 
-                          <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"><span class="es-button-border" style="border-style:solid;border-color:#2980D9;background:#2980D9;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="index.php" class="es-button es-button-3" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#2980D9;border-width:10px 40px;display:inline-block;background:#2980D9;border-radius:5px;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center">Go for Details</a></span></td> 
+                          <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"><span class="es-button-border" style="border-style:solid;border-color:#2980D9;background:#2980D9;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="index.php" class="es-button es-button-3" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#2980D9;border-width:10px 40px;display:inline-block;background:white;border-radius:5px;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center">Go for Details</a></span></td> 
                          </tr> 
                        </table></td> 
                      </tr> 
@@ -257,8 +250,9 @@ try {
     </html>';
   $mail->AltBody = 'This is the body of the message.';
 
-  $mail->send();
-  // header("location:pdf.php");
+    $mail->send();
+    header("location:pdf.php");
 } catch (Exception $e) {
-  echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    
 }

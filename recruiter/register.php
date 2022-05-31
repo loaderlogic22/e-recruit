@@ -1,6 +1,9 @@
 <?php
 include '../connection.php';
 
+include("../components/head.php");
+
+
 // $id = $_POST['id'];
 // $name = $_POST['name'];
 // $roll = $_POST['roll'];

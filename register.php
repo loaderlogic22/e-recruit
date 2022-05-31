@@ -2,16 +2,16 @@
 include 'connection.php';
 
 //$id = $_POST['id'];
-$name = $_POST['name'];
-$roll = $_POST['roll'];
-$department = $_POST['department'];
-$year = $_POST['year'];
-$email = $_POST['email'];
-$description = $_POST['description'];
-$resume = $_POST['resume'];
-$image = $_POST['image'];
-$password = $_POST['password'];
-$cpassword = $_POST['cpassword'];
+// $name = $_POST['name'];
+// $roll = $_POST['roll'];
+// $department = $_POST['department'];
+// $year = $_POST['year'];
+// $email = $_POST['email'];
+// $description = $_POST['description'];
+// $resume = $_POST['resume'];
+// $image = $_POST['image'];
+// $password = $_POST['password'];
+// $cpassword = $_POST['cpassword'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
