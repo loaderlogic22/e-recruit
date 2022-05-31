@@ -19,10 +19,6 @@ if (!isset($_SESSION['name'])) {
         $roll = $_SESSION['name'];
         $sql = "select name from student where roll = '$roll' ";
         $result = mysqli_query($conn, $sql);
-        // if ($result) {
-        //     $row = mysqli_fetch_assoc($result);
-        //     echo 'Welcome ' . $row['name'];
-        // }
         ?>
     </h1>
 
@@ -76,33 +72,33 @@ if (!isset($_SESSION['name'])) {
             </div>
             <br>
             <br>
-            
 
-          
- 
+
+
+
             <div class="middlepage">
 
-            <?php
-    $sql = "select * from posts";
-    $result = mysqli_query($conn, $sql);
-    if ($result) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            $id = $row['post_id'];
-    ?>
-                <div class="cardhead"  id="<?php echo $id ?>">
-                    <div class="heading-card">
-                    </div>
-                    <div class="card left-card">
-                    <?php echo $row['body'] ?>
-                    <div class="long-btn">
-                            <a href="#">For Details</a>
+                <?php
+                $sql = "select * from posts";
+                $result = mysqli_query($conn, $sql);
+                if ($result) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        $id = $row['post_id'];
+                ?>
+                        <div class="cardhead" id="<?php echo $id ?>">
+                            <div class="heading-card">
+                            </div>
+                            <div class="card left-card">
+                                <?php echo $row['body'] ?>
+                                <div class="long-btn">
+                                    <a href="apply_job.php?id=<?php echo $id ?>">Apply now</a>
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                   
-                </div>
                 <?php  }
-    }
-    ?>
+                }
+                ?>
             </div>
 
             <div class="rightpage">
@@ -121,11 +117,11 @@ if (!isset($_SESSION['name'])) {
                                         <p>Jhon Deo</p>
                                         <p>T&P Office</p>
                                         <p>9362587410</p>
-                                        
+
                                     </div>
                                 </div>
                             </div>
-                            </center>
+                        </center>
                     </div>
                 </div>
                 <div class="cardhead">
@@ -133,23 +129,23 @@ if (!isset($_SESSION['name'])) {
                         <p>Faculty</p>
                     </div>
                     <div class="card left-card">
-                    <center>
+                        <center>
                             <div class="pro">
                                 <div class="prodit">
                                     <div class="proimg">
                                         <img src="./icon/user.png" alt="">
                                     </div>
                                     <div class="dit">
-                                    <p>Jhon Deo</p>
+                                        <p>Jhon Deo</p>
                                         <p>Faculty</p>
                                         <p>9362587410</p>
                                         <div class="long-btn">
-                            <a href="#">For Details</a>
-                        </div>
+                                            <a href="#">For Details</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            </center>
+                        </center>
                     </div>
                 </div>
                 <div class="cardhead">
@@ -157,23 +153,23 @@ if (!isset($_SESSION['name'])) {
                         <p>Academic Queries</p>
                     </div>
                     <div class="card left-card">
-                    <center>
+                        <center>
                             <div class="pro">
                                 <div class="prodit">
                                     <div class="proimg">
                                         <img src="./icon/user.png" alt="">
                                     </div>
                                     <div class="dit">
-                                    <p>Jhon Deo</p>
+                                        <p>Jhon Deo</p>
                                         <p>Faculty</p>
                                         <p>9362587410</p>
                                         <div class="long-btn">
-                            <a href="#">For Details</a>
-                        </div>
+                                            <a href="#">For Details</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            </center>
+                        </center>
                     </div>
                 </div>
                 <br>

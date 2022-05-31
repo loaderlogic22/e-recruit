@@ -73,7 +73,7 @@ switch ($case) {
         $sql = "insert into apply_post (post_id,applied_stu_id) values ('$post_id','$stu_id')";
         $result = mysqli_query($conn, $sql);
         if ($result) {
-            echo 'ok';
+            echo 'Good job!';
         } else {
             echo 'error';
         }
