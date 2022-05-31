@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<?php include("./components/head.php"); ?>
+
 <body>
-    
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a href="index.php" class="brand">E-Recruit</a>
+            <ul class="nav">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="register.php">Register</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>
