@@ -1,8 +1,11 @@
 <?php
 session_start();
-if (!isset($_SESSION['name']) || !isset($_SESSION['username'])) {
+if (!isset($_SESSION['name'])) {
     header('location: login.php');
 }
+$name = $_SESSION['name'];
+$username = $_GET['name'];
+echo $username;
 ?>
 
 <!DOCTYPE html>
