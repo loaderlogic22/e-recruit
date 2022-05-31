@@ -6,6 +6,8 @@ if (!isset($_SESSION['name'])) {
 }
 $name = $_SESSION['name'];
 $id = $_GET['id'];
+$res = file_get_contents('emptohremail.php');
+// echo $res;
 ?>
 
 <!DOCTYPE html>
@@ -33,11 +35,12 @@ $id = $_GET['id'];
             .then(e => e.text())
             .then(e => {
                 // alert(e);
-                swal(e, "You have applied for the job!", "success");
+                swal(e, "You have applied for the job! check your mail for further steps", "success");
                 setTimeout(() => {
                     window.location.href = 'home.php';
-                }, 2000)
+                }, 6000)
             })
+
     </script>
 </body>
 
