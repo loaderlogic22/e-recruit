@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("./components/head.php"); ?>
+<?php include("../components/head.php"); ?>
+
 <body>
     <div class="flex">
         <div class="side-login"></div>
-        <div class="form-login">
+        <div class="form-login ">
             <div class="login">
-                <form action="student_api.php" id="form" method="POST" autocomplete="off">
+                <form action="student_api.php" id="form" method="POST" autocomplete="off" class="d-flex justify-content-center">
                     <br><br>
-                    <center><h1>Login</h1></center>
+                    
+                        <h1>Login</h1>
+                    
                     <br>
                     <br>
                     <label for="roll">Roll No</label>
                     <br>
-                    
+
                     <input type="number" name="roll" id="roll" placeholder="Enter your Roll" autocomplete="off" required>
                     <br>
                     <br>
                     <label for="password">Password</label>
                     <br>
-                   
+
                     <input type="password" name="Password" id="password" placeholder="Enter your Password" autocomplete="off" required>
                     <br>
 
-<br>
-<br>
+                    <br>
+                    <br>
                     <input type="submit" id='submit' class="btn-grad" value="Submit">
 
                 </form>
                 <br>
-<a href="forgot.php" class="forgot">Forgot Password?</a>
-<br>
- <br>
-<a href="forgot.php" class="forgot">Are u a recruiter?</a>
+                <a href="forgot.php" class="forgot">Forgot Password?</a>
+                <br>
+                <br>
+                <a href="forgot.php" class="forgot">Are u a recruiter?</a>
             </div>
         </div>
     </div>
