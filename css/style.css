@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0px;
 }
+body{
+    font-family: 'popins', sans-serif;
+}
 .navbar{
     background-color: #eee;
     width: 100vw;
@@ -75,4 +78,28 @@
     .bar{
         display: none;
     }
+}
+
+.side-login{
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(73, 255, 185);
+}
+.flex{
+    display: flex;
+}
+.form-login{
+    width: 80%;
+    height: 80%;
+    border: 1px solid #eee;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login{
+    margin-top: 50px;
+    margin-left: 30px;
 }
