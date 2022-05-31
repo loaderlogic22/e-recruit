@@ -56,7 +56,7 @@ if (!isset($_SESSION['username'])) {
                     <div class="card-body">
                         <h5 class="card-title">Update profile</h5>
                         <p class="card-text">Update your old details</p>
-                        <a href="posts.php" class="btn btn-primary">Post Now</a>
+                        <a href=".php" class="btn btn-primary">Post Now</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ if (!isset($_SESSION['username'])) {
                     <div class="card-body">
                         <h5 class="card-title">View responses</h5>
                         <p class="card-text">View all responses from candidates</p>
-                        <a href="posts.php" class="btn btn-primary">View Now</a>
+                        <a href="viewres.php.php" class="btn btn-primary">View Now</a>
                     </div>
                 </div>
             </div>
