@@ -23,7 +23,7 @@ $username = $_SESSION['username'];
 <body>
     <div class="container">
         <div class="table-responsive">
-            
+
         </div>
     </div>
 </body>
