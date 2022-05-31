@@ -37,7 +37,7 @@
             fd.append('case', 'login');
             fd.append('username',username);
             fd.append('password', password);
-            fetch('student_api.php', {
+            fetch('recruiter_api.php', {
                     method: 'post',
                     body: fd
                 })

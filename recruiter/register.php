@@ -1,18 +1,17 @@
-
 <?php
 include 'connection.php';
 
- $id = $_POST['id'];
- $name = $_POST['name'];
- $roll = $_POST['roll'];
- $designation = $_POST['designation'];
- $conpany = $_POST['conpany'];
- $description = $_POST['description'];
- $website = $_POST['website'];
- $logo = $_POST['logo'];
- $email = $_POST['email'];
- $password = $_POST['password'];
- $cpassword = $_POST['cpassword'];
+// $id = $_POST['id'];
+// $name = $_POST['name'];
+// $roll = $_POST['roll'];
+// $designation = $_POST['designation'];
+// $conpany = $_POST['conpany'];
+// $description = $_POST['description'];
+// $website = $_POST['website'];
+// $logo = $_POST['logo'];
+// $email = $_POST['email'];
+// $password = $_POST['password'];
+// $cpassword = $_POST['cpassword'];
 
 ?>
 
