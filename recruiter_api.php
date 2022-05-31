@@ -71,6 +71,15 @@ switch ($case) {
 
         break;
 
+    case 'delete':
+        $id = $_POST['id'];
+        $sql = "delete from posts where post_id = '$id' ";
+        $result = mysqli_query($conn, $sql);
+        if ($result) {
+            //echo 'deleted';
+        }
+        break;
+
     default:
         # code...
         break;

@@ -32,7 +32,7 @@ $username = $_SESSION['username'];
                     <div class="card m-5">
                     <div class="card-body">
                       ' . $body . '
-                      <button id="'.$row['post_id'].'" class="btn btn-primary">Delete Post</a>
+                      <button id="' . $row['post_id'] . '" class="btn btn-primary">Delete Post</a>
                     </div>
                   </div>
                   ';
@@ -41,8 +41,21 @@ $username = $_SESSION['username'];
         ?>
     </div>
     <script>
-        document.querySelector('button').addEventListener('click',e=>{
-            alert()
+        document.querySelector('button').addEventListener('click', e => {
+            // alert(e.srcElement.id)
+            const fd = new FormData();
+            fd.append('case', 'delete');
+            fd.append('id', e.srcElement.id);
+            fetch('../recruiter_api.php', {
+                    method: 'post',
+                    body: fd
+                })
+                .then(e => e.text())
+                .then(e => {
+                    alert(e);
+                    window.location.reload();
+                })
+
         })
     </script>
 </body>
