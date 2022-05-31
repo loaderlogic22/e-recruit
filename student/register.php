@@ -1,6 +1,6 @@
 <?php
 
-include 'connection.php';
+include '../connection.php';
 
 $id = $_POST['id'];
 $name = $_POST['name'];
@@ -34,10 +34,7 @@ $cpassword = $_POST['cpassword'];
                 <div class="col-md-12 d-flex  justify-content-center">
                     <h1>Registration</h1>
                 </div>
-                <div class="mb-3 ">
-                    <label for="id" class="form-label">ID</label>
-                    <input type="id" class="form-control" id="id">
-                </div>
+             
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
                     <input type="name" class="form-control" id="name" required>
@@ -52,7 +49,7 @@ $cpassword = $_POST['cpassword'];
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email" required>
                 </div>
-               
+
                 <div class="mb-3">
                     <label for="department" class="form-label">Department</label>
                     <input type="department" class="form-control" id="department" required>
@@ -67,11 +64,11 @@ $cpassword = $_POST['cpassword'];
                 </div>
                 <div class="mb-3">
                     <label for="photo" class="form-label">Upload Resume</label>
-                    <input class="form-control form-control-sm" id="logo" type="file">
+                    <input class="form-control form-control-sm" id="logo" type="file" accept=".pdf">
                 </div>
                 <div class="mb-3">
                     <label for="photo" class="form-label">Upload Image </label>
-                    <input class="form-control form-control-sm" id="logo" type="file" required>
+                    <input class="form-control form-control-sm" id="logo" type="file" required accept=".jpg,.png,.jpeg">
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
