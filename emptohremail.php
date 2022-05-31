@@ -1,7 +1,6 @@
 <?php
 session_start();
-include("config.php");
-
+include "connection.php";
 ini_set('max_execution_time', 300);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -31,15 +30,15 @@ try {
     //     )
     // );
    
-    $sql = "select * from team where token='". $_SESSION['token'] ."'";
+    $sql = "select * from student where roll='". $_SESSION['name'] ."'";
     $query = mysqli_query($con, $sql);
     $fetch = mysqli_fetch_array($query);
     //Recipients
-    $mail->setFrom('websquad04@gmail.com', 'Esperanza 3.0');
-    $mail->addAddress($fetch["email"]);     //Add a recipient
+    $mail->setFrom('websquad04@gmail.com', 'E-Recruit');
+    $mail->addAddress('indraneelbiswasofficial@gmail.com');     //Add a recipient
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Thanks for participating. Team ID'.$fetch["time"].'/' . $fetch["sl"];
+    $mail->Subject = 'Application For'. $_GET['job'];
     $mail->Body    = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" style="width:100%;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0"> 
      <head> 
@@ -255,24 +254,10 @@ try {
       </div>  
      </body>
     </html>';
-    $mail->AltBody = '
-    Hi '. $fetch["name"] .' 
-   
-    Thanks for participating in '. $fetch["nameofevent"] .'.
-    Your Registration is successful.
-   
-    All the best. 
-   
-    If you want to edit your responses or if you have not received any confirmation participating pdf, contact WEB SQUAD.
-   
-    E-Mail address: websquad04@gmail.com
-    Call: +91 9932102121
-   
-    Cheers
-    ESPERANZA';
+    $mail->AltBody = 'This is the body of the message.';
 
     $mail->send();
-    header("location:pdf.php");
+    // header("location:pdf.php");
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
