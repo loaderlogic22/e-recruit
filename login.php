@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <?php include("./components/head.php"); ?>
@@ -26,3 +27,7 @@
 </body>
 
 </html>
+=======
+<?php
+echo 'login page';
+>>>>>>> a6416fb7919fda683dda3b7f5e8b477c93946fff
