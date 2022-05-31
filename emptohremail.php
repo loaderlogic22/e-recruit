@@ -197,7 +197,7 @@ try {
                       <td class="es-m-p20b" align="left" style="padding:0;Margin:0;width:560px"> 
                        <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
                          <tr style="border-collapse:collapse"> 
-                          <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"><span class="es-button-border" style="border-style:solid;border-color:#2980D9;background:#2980D9;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="meeting.php?email='.$fetch['email'].'" class="es-button es-button-3" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#2980D9;border-width:10px 40px;display:inline-block;background:white;border-radius:5px;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center">Go for Details</a></span></td> 
+                          <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"><span class="es-button-border" style="border-style:solid;border-color:#2980D9;background:#2980D9;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="http://localhost/e-recruit/recruiter/meeting.php?email='.$fetch['email'].'&name='.$fetch['name'].'" class="es-button es-button-3" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#2980D9;border-width:10px 40px;display:inline-block;background:white;border-radius:5px;font-family:roboto, "helvetica neue", helvetica, arial, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center">Go for Details</a></span></td> 
                          </tr> 
                        </table></td> 
                      </tr> 
@@ -250,7 +250,7 @@ try {
     $mail->AltBody = 'This is the body of the message.';
 
     $mail->send();
-    header("location:pdf.php");
+    header("location:home.php");
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     

@@ -3,10 +3,10 @@ session_start();
 if (!isset($_SESSION['name'])) {
     header('location: login.php');
 }
-$name = $_SESSION['name'];
-$username = $_GET['name'];
-echo $username; //username
-// $email = $_GET['email']
+$name = rand(10, 100); //recruiter
+$username = $_GET['name']; //student
+// echo $username; //username
+$email = $_GET['email']
 ?>
 
 <!DOCTYPE html>
@@ -65,11 +65,11 @@ echo $username; //username
             // Pass your App ID here.
             appId: "3127ea9500c248dd8a9244b713907fa4",
             // Set the channel name.
-            channel: "<?php echo $_GET['meeting'] ?>",
+            channel: "<?php echo $name ?>",
             // Pass your temp token here.
             token: null,
             // Set the user ID.
-            uid: "<?php echo $name ?>"
+            uid: "<?php echo $username ?>"
         };
 
         async function startCall() {
@@ -126,7 +126,9 @@ echo $username; //username
             })
 
             window.onload = function() {
+              
                 document.getElementById("join").onclick = async function() {
+                    mail();
                     // Join an RTC channel.
                     await rtc.client.join(options.appId, options.channel, options.token, options.uid);
                     // Create a local audio track from the audio sampled by a microphone.
@@ -170,6 +172,14 @@ echo $username; //username
 
         }
         startCall();
+
+        function mail() {
+            fetch('meetingmail.php?name="<?php echo $username ?>" &email="<?php echo $email ?>" &meeting="<?php echo $name ?>"')
+                .then(response => response.text())
+                .then(data => {
+                    console.log(data);
+                })
+        }
     </script>
 </body>
 
