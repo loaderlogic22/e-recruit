@@ -70,11 +70,7 @@ td .es-button-border-2:hover {
 </style> 
  </head> 
  <body data-new-gr-c-s-loaded="14.1062.0" style="width:100%;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0"> 
-  <div class="es-wrapper-color" style="background-color:#2980D9"><!--[if gte mso 9]>
-			<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-				<v:fill type="tile" color="#2980d9"></v:fill>
-			</v:background>
-		<![endif]--> 
+  <div class="es-wrapper-color" style="background-color:#2980D9">
    <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top"> 
      <tr style="border-collapse:collapse"> 
       <td valign="top" style="padding:0;Margin:0"> 
@@ -160,25 +156,14 @@ td .es-button-border-2:hover {
                  <tr style="border-collapse:collapse"> 
                   <td valign="top" align="center" style="padding:0;Margin:0;width:560px"> 
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
-                     <tr style="border-collapse:collapse"> 
-                      <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-top:5px;padding-bottom:10px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#666666;font-size:14px">Can you please confirm if I recapped our conversation accurately?</p></td> 
-                     </tr> 
-                     <tr style="border-collapse:collapse"> 
-                      <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;color:#666666;font-size:16px">We agreed upon:</p></td> 
-                     </tr> 
-                     <tr style="border-collapse:collapse"> 
-                      <td bgcolor="transparent" align="left" style="padding:0;Margin:0;padding-bottom:5px;padding-left:5px;padding-right:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:28px;color:#666666;font-size:14px"><span style="color:#2980d9">►&nbsp;</span>we integrate our tools for 2 months to see if they work well together;</p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:28px;color:#666666;font-size:14px"><span style="color:#2980d9">►</span>&nbsp;my specialists work on the integration process;</p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:28px;color:#666666;font-size:14px"><span style="color:#2980d9">►</span>&nbsp;for this trial period, it will be totally free for you;</p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:28px;color:#666666;font-size:14px"><span style="color:#2980d9">►</span>&nbsp;we meet in two months for further discussions;</p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:28px;color:#666666;font-size:14px"><span style="color:#2980d9">►</span>&nbsp;in case of&nbsp;emergency, I can reach out to you over your cell phone.</p></td> 
-                     </tr> 
-                     <tr style="border-collapse:collapse"> 
-                      <td bgcolor="transparent" align="center" style="padding:0;Margin:0;padding-bottom:5px;padding-top:10px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#2980d9;font-size:14px"><br></p></td> 
-                     </tr> 
+                    
                    </table></td> 
                  </tr> 
                  <tr style="border-collapse:collapse"> 
                   <td class="es-m-p20b" align="left" style="padding:0;Margin:0;width:560px"> 
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
                      <tr style="border-collapse:collapse"> 
-                      <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"><span class="es-button-border" style="border-style:solid;border-color:#2980D9;background:#2980D9;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="https://viewstripo.email" class="es-button es-button-3" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#2980D9;border-width:10px 40px;display:inline-block;background:#2980D9;border-radius:5px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center">Go for Details</a></span></td> 
+                      <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"><span class="es-button-border" style="border-style:solid;border-color:#2980D9;background:#2980D9;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="index.php" class="es-button es-button-3" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#2980D9;border-width:10px 40px;display:inline-block;background:#2980D9;border-radius:5px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center">Go for Details</a></span></td> 
                      </tr> 
                    </table></td> 
                  </tr> 
