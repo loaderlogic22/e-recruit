@@ -42,15 +42,37 @@
     right: 20px;
     top: 20px;
 }
+.bar img{
+    position: absolute;
+    width: 30px;
+    left: 20px;
+    top: 15px;
+}
 @media screen and (max-width: 992px) {
     .nav{
         position: fixed;
         top: 0px;
         left: 0px;
         background-color: #eee;
-        width: 80vw;
         height: 100vh;
         display: block;
         text-align: center;
+        width: 0px;
+        margin-left: -130px;
+        transition: all 1s ease;
     }
-}    
+    .lifirst{
+        margin-top: 70px;
+    }
+    .brand img{
+        margin-left: 60px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .closebtn{
+        display: none;
+    }
+    .bar{
+        display: none;
+    }
+}
