@@ -2,7 +2,15 @@
 <html lang="en">
 <?php include("./components/head.php"); ?>
 
-<body>
+<body class="boxed" onload="myfunctionind()">
+    <div class="loader-ind" id="loadingind">
+        <div class="loader-inner">
+            <img src="./img/headerlogo.png" alt="E-R">
+            <div class="dot-cont">
+                <div class="dot-pulse"></div>
+            </div>
+</div>
+</div>
     <?php include("./components/header.php"); ?>
 <div class="margintop"></div>
     <div class="swiper mySwiper">
@@ -15,6 +23,7 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>
+    <?php include("./components/footer.php"); ?>
     <script>
            function closeside() {
             document.getElementById("sidebar").style.width = "0px";
@@ -83,6 +92,13 @@
                     reveals[i].classList.remove("ractive")
                 }
             }
+        }
+    </script>
+        <script>
+        var preloadind = document.getElementById('loadingind');
+
+        function myfunctionind() {
+            preloadind.style.display = 'none';
         }
     </script>
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
