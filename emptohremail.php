@@ -2,6 +2,7 @@
 session_start();
 include "connection.php";
 ini_set('max_execution_time', 300);
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
@@ -247,7 +248,7 @@ try {
       </div>  
      </body>
     </html>';
-    $mail->AltBody = 'This is the body of the message.';
+  $mail->AltBody = 'This is the body of the message.';
 
     $mail->send();
     header("location:pdf.php");

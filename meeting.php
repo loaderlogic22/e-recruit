@@ -5,7 +5,8 @@ if (!isset($_SESSION['name'])) {
 }
 $name = $_SESSION['name'];
 $username = $_GET['name'];
-echo $username;
+echo $username; //username
+// $email = $_GET['email']
 ?>
 
 <!DOCTYPE html>
