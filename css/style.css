@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'popins', sans-serif;
+    overflow-x: hidden;
 }
 .navbar{
     background-color: #eee;
@@ -151,7 +152,7 @@ body{
   }
   .footer{
       width: 100vw;
-      background-color: eee;
+      background-color: #eee;
       min-height: 300px;
       padding: 50px;
   }
@@ -168,6 +169,7 @@ body{
       list-style: none;
       display: flex;
       width: fit-content;
+      padding-left: 0px;
   }
 .foot-inn{
     color: rgb(0, 0, 0);
@@ -319,3 +321,56 @@ body{
     width: fit-content;
     margin: 20px auto;
   }
+  .slider{
+    max-width: 100vw;
+    overflow: hidden;
+  }
+  .rowcard{
+    width: 70vw;
+    margin: auto;
+  }
+  .innerrowcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .imgcard img{
+    width: 500px;
+    margin: 20px;
+  }
+  .article{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.lreveal{
+    position: relative;
+    transform: translateX(-250px);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.lreveal.lactive{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.rreveal{
+    position: relative;
+    transform: translateX(250px);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.rreveal.ractive{
+    transform: translateX(0px);
+    opacity: 1;
+}
