@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("../components/head.php");
-//include("connection.php"); 
-
-?>
-
+<?php include("./components/head.php"); ?>
 <body>
     <div class="flex">
         <div class="side-login"></div>
         <div class="form-login">
             <div class="login">
-                <form action="recruiter_api.php" id="form" method="POST">
-                    <h2>Login</h2>
+                <form action="student_api.php" id="form" method="POST" autocomplete="off">
+                    <br><br>
+                    <center><h1>Login</h1></center>
                     <br>
-                    <label for="roll">ID/Username</label>
                     <br>
-                    <input type="username" name="username" id="username" required>
+                    <label for="roll">Roll No</label>
+                    <br>
+                    
+                    <input type="number" name="roll" id="roll" placeholder="Enter your Roll" autocomplete="off" required>
+                    <br>
                     <br>
                     <label for="password">Password</label>
                     <br>
-                    <input type="password" name="Password" id="password" required>
+                   
+                    <input type="password" name="Password" id="password" placeholder="Enter your Password" autocomplete="off" required>
                     <br>
-                    <input type="submit" id='submit' value="Submit">
+
+<br>
+<br>
+                    <input type="submit" id='submit' class="btn-grad" value="Submit">
+
                 </form>
+                <br>
+<a href="forgot.php" class="forgot">Forgot Password?</a>
+<br>
+ <br>
+<a href="forgot.php" class="forgot">Are u a recruiter?</a>
             </div>
         </div>
     </div>
@@ -30,20 +40,20 @@
     <script>
         document.getElementById('submit').addEventListener('click', e => {
             e.preventDefault();
-            let username = document.getElementById('username').value;
+            let roll = document.getElementById('roll').value;
             let password = document.getElementById('password').value;
             const fd = new FormData();
             fd.append('case', 'login');
-            fd.append('username', username);
+            fd.append('roll', roll);
             fd.append('password', password);
-            fetch('recruiter_api.php', {
+            fetch('student_api.php', {
                     method: 'post',
                     body: fd
                 })
                 .then(resp => resp.text())
                 .then(resp => {
                     // alert(resp);
-                    window.location.href = 'home.php';
+                    window.location.href = 'index.php';
 
                 })
 

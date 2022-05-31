@@ -40,19 +40,13 @@ With the relentless support of the staff and the students associated with the pl
 </div>
         </div>
         <div class="innerrowcard">
-<<<<<<< HEAD
             <div class="article lreveal">
             The student committee has been able to create an extensive database of all the potential recruiting companies along with their contact details. Over the past one year, the cell has been successful in establishing an initial contact with more than five hundred companies. This has definitely increased awareness among the companies about St. Xavier’s College being a potential institution for recruitment option. In fact, those companies that have not been able to recruit from the College this year will surely consider St. Xavier’s College, Kolkata an effective option in the following year.The Placement Cell begins the academic year with the process of volunteer recruitment from the first and second year students. The process is conducted by the Core Committee of third year students. Students are then divided into five groups under team leaders, who perform their office and campus duties on different days of the week. Students apply as they want to help out conduct and manage placement activities. The members contact various corporate and human resource personnel regarding the organization of campus drives. Companies begin with the pre-placement talks followed by the group discussion and interview rounds. Once the recruitment process is completed, students are intimated about their selection within suitable time. Different companies may have different selection criteria and processes for students.            </div>
-=======
-        <div class="article lreveal desk-show">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
-            </div>
->>>>>>> 644a23d3c6080743dea181c1649709a405073078
-            <div class="imgcard rreveal">
+        
+
+        
+<div class="imgcard rreveal">
                 <img src="./img/card2.jpg" alt="">
-            </div>
-            <div class="article lreveal mob-show">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!
             </div>
         </div>
         <div class="innerrowcard">
@@ -64,18 +58,7 @@ With the relentless support of the staff and the students associated with the pl
         </div>
         </div>
     </div>
-    <div class="place-card">
-        <div class="inner-place">
-            <div class="cardplace">
-                <div class="cardplace-img">
-                    <img src="./img/cardplace.jpg" alt="">
-                </div>
-                <div class="cardplace-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum doloremque neque, enim quidem quae quasi illo laudantium voluptas numquam ipsam perspiciatis blanditiis eligendi temporibus ut aspernatur sunt soluta veniam quibusdam deleniti! Reiciendis nostrum mollitia dolorum a dolore modi dicta architecto, sit ipsa illum ipsam ullam deleniti? In architecto itaque labore ullam eius repellendus velit, amet odio fugit eum ipsum!</p>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <?php include("./components/footer.php"); ?>
     <script>
         function closeside() {

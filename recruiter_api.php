@@ -14,8 +14,9 @@ switch ($case) {
             $row = mysqli_num_rows($result);
             if ($row === 1) {
                 $_SESSION['username'] = $username;
-                header('location: index.php');
+                // header('location: index.php');
             }
+            echo json_encode($row);
         }
 
         break;
@@ -53,7 +54,7 @@ switch ($case) {
     case 'posts':
         $bytes = random_bytes(4);
         $post_id = bin2hex($bytes); //unqiue id
-        $rec_id = $_POST['rec_id'];
+        $rec_id = $_SESSION['username'];
         $body = $_POST['body'];
 
         $target_dir = 'uploads/posts/';

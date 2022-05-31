@@ -9,30 +9,20 @@ if (!isset($_SESSION['name'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-
-
-
-
-    </style>
-</head>
+<?php include("./components/head.php"); ?>
 
 <body>
+    <?php include("./components/header.php"); ?>
+    <div class="margintop"></div>
     <h1 style="text-align: center;">
         <?php
         $roll = $_SESSION['name'];
         $sql = "select name from student where roll = '$roll' ";
         $result = mysqli_query($conn, $sql);
-        if ($result) {
-            $row = mysqli_fetch_assoc($result);
-            echo 'Welcome ' . $row['name'];
-        }
+        // if ($result) {
+        //     $row = mysqli_fetch_assoc($result);
+        //     echo 'Welcome ' . $row['name'];
+        // }
         ?>
     </h1>
 
@@ -42,14 +32,152 @@ if (!isset($_SESSION['name'])) {
     if ($result) {
         while ($row = mysqli_fetch_assoc($result)) {
             $id = $row['post_id'];
-            echo "
-                <div id='$id' style='display:flex;background-color:red;width:20px;height:20px'>
-                    
-                </div>
-                ";
-        }
+    ?>
+            <!-- <div id="<?php $id ?>" style="display:flex;background-color:red;width:20px;height:20px"> 
+                </div> -->
+    <?php  }
     }
     ?>
+    <div class="fullpage">
+        <div class="contpage">
+            <div class="leftpage">
+                <div class="cardhead">
+                    <div class="heading-card">
+                        <p>Connect</p>
+                    </div>
+                    <div class="card left-card">
+                        <div class="iconimg"><img src="./icon/whatsapp.png" alt="">
+                            <a href="#" class="btn">Send Message</a>
+                        </div>
+                        <br><br>
+                        <div class="iconimg"><img src="./icon/linkedin.png" alt="">
+                            <a href="#" class="btn">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardhead">
+                    <div class="heading-card">
+                        <p>Explore</p>
+                    </div>
+                    <div class="card left-card">
+                        <div class="iconimg"><img src="./icon/supplier.png" alt="">
+                            <a href="#" class="btn">Placement</a>
+                        </div>
+                        <br><br>
+                        <div class="iconimg"><img src="./icon/recruitment.png" alt="">
+                            <a href="#" class="btn">Recruiters</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardhead">
+                    <div class="heading-card">
+                        <p>T&P Members</p>
+                    </div>
+                    <div class="card left-card">
+                        <div class="long-btn">
+                            <a href="#">Technical Memeber</a>
+                        </div>
+                        <div class="long-btn">
+                            <a href="#">Excutive Memeber</a>
+                        </div>
+                        <div class="long-btn">
+                            <a href="#">Core Memeber</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="middlepage">
+                <div class="cardhead">
+                    <div class="heading-card">
+                        <p>Latest Posts</p>
+                    </div>
+                    <div class="card left-card">
+
+                    </div>
+                </div>
+            </div>
+            <div class="rightpage">
+                <div class="cardhead">
+                    <div class="heading-card">
+                        <p>T&P Office</p>
+                    </div>
+                    <div class="card left-card">
+                        <center>
+                            <div class="pro">
+                                <div class="prodit">
+                                    <div class="proimg">
+                                        <img src="./icon/user.png" alt="">
+                                    </div>
+                                    <div class="dit">
+                                        <p>Jhon Deo</p>
+                                        <p>T&P Office</p>
+                                        <p>9362587410</p>
+                                        <div class="long-btn">
+                            <a href="#">For Details</a>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </center>
+                    </div>
+                </div>
+                <div class="cardhead">
+                    <div class="heading-card">
+                        <p>Faculty</p>
+                    </div>
+                    <div class="card left-card">
+                    <center>
+                            <div class="pro">
+                                <div class="prodit">
+                                    <div class="proimg">
+                                        <img src="./icon/user.png" alt="">
+                                    </div>
+                                    <div class="dit">
+                                    <p>Jhon Deo</p>
+                                        <p>Faculty</p>
+                                        <p>9362587410</p>
+                                        <div class="long-btn">
+                            <a href="#">For Details</a>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </center>
+                    </div>
+                </div>
+                <div class="cardhead">
+                    <div class="heading-card">
+                        <p>Academic Queries</p>
+                    </div>
+                    <div class="card left-card">
+                    <center>
+                            <div class="pro">
+                                <div class="prodit">
+                                    <div class="proimg">
+                                        <img src="./icon/user.png" alt="">
+                                    </div>
+                                    <div class="dit">
+                                    <p>Jhon Deo</p>
+                                        <p>Faculty</p>
+                                        <p>9362587410</p>
+                                        <div class="long-btn">
+                            <a href="#">For Details</a>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </center>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="margintop"></div>
+    <?php include("./components/footer.php"); ?>
 </body>
 
 </html>

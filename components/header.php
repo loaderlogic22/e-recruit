@@ -12,6 +12,7 @@
                 <li class="lifirst"><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="home.php">Jobs</a></li>
                 <li><a href="profile.php"><?php
 
                                             // $_SESSION['name']
@@ -32,6 +33,7 @@
                 <li class="lifirst"><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="home.php">Jobs</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="register.php">Register</a></li>
             <?php } ?>
