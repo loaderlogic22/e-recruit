@@ -3,7 +3,7 @@
     margin: 0px;
 }
 .navbar{
-    background-color: black;
+    background-color: #eee;
     width: 100vw;
     height: 60px;
     position: fixed;
@@ -27,8 +27,30 @@
 }
 .nav li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .brand{
     text-decoration: none;
 }
+.brand img{
+    width: 80px;
+    margin-left: 50px;
+}
+.closebtn img{
+    position: absolute;
+    width: 30px;
+    right: 20px;
+    top: 20px;
+}
+@media screen and (max-width: 992px) {
+    .nav{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: #eee;
+        width: 80vw;
+        height: 100vh;
+        display: block;
+        text-align: center;
+    }
+}    
