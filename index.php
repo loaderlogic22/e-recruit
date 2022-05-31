@@ -4,7 +4,17 @@
 
 <body>
     <?php include("./components/header.php"); ?>
-
+<div class="margintop"></div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./img/slide1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./img/slide2.png" alt=""></div>
+        <div class="swiper-slide"><img src="./img/slide3.png" alt=""></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
     <script>
            function closeside() {
             document.getElementById("sidebar").style.width = "0px";
@@ -75,6 +85,28 @@
             }
         }
     </script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
 </body>
 
 </html>
