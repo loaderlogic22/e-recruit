@@ -6,7 +6,7 @@
   <meta name="x-apple-disable-message-reformatting"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <meta content="telephone=no" name="format-detection"> 
-  <title>New Template</title>
+  <title>Loaderlogic</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   <style type="text/css">
 #outlook a {
@@ -86,7 +86,7 @@ td .es-button-border-2:hover {
                   <td valign="top" align="center" style="padding:0;Margin:0;width:600px"> 
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"> 
                      <tr style="border-collapse:collapse"> 
-                      <td align="center" style="padding:0;Margin:0;font-size:0"><a target="_blank" href="https://viewstripo.email" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#2980D9;font-size:14px"><img class="adapt-img" src="https://viwwrp.stripocdn.email/content/guids/CABINET_b99e83e44998cbb12acdc7a0e6608b53/images/75141566983582522.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="600"></a></td> 
+                      <td align="center" style="padding:0;Margin:0;font-size:0"><a target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#2980D9;font-size:14px"><img class="adapt-img" src="https://viwwrp.stripocdn.email/content/guids/CABINET_b99e83e44998cbb12acdc7a0e6608b53/images/75141566983582522.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="600"></a></td> 
                      </tr> 
                    </table></td> 
                  </tr> 
