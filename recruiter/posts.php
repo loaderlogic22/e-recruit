@@ -71,7 +71,7 @@ if (!isset($_SESSION['username'])) {
                 })
                 .then(e => e.text())
                 .then(e => {
-                    if (e == 'ok') {
+                    if (e === 'ok') {
                         alert("Post uploaded");
                         window.location.reload();
                     }
