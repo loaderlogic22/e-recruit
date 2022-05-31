@@ -21,23 +21,62 @@ if (!isset($_SESSION['username'])) {
 
     <div class="container p-5 d-flex align-items-center" style="flex-direction: column;">
 
-        <div class="form-floating w-50 mb-3">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Comments</label>
-        </div>
+        <form method="post">
+            <div id="editor" class="mb-3">Enter your post details here</div>
 
-        <div class="w-50">
-            <label for="formFile" class="form-label">Image(optional)</label>
-            <input class="form-control" type="file" id="formFile">
-        </div>
+            <div class="w-100 mt-3">
+                <label for="formFile" class="form-label">Image(optional)</label>
+                <input class="form-control" name="image" type="file" id="formFile" accept=".jpg,.png,.jpeg">
+            </div>
+            <input type="hidden" name="case" value="posts">
+            <button class="btn btn-primary mt-3">
+                Post
+            </button>
+        </form>
 
-        <button class="btn btn-primary mt-3">
-            Post
-        </button>
     </div>
 
+    <script src="../js/Editor.js"></script>
     <script>
+        data = '';
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .then(editor => {
+                editor.model.document.on('change:data', () => {
+                    editorData = editor.getData();
+                    data = editorData;
+                });
+            })
+            .catch(error => {
+                console.error(error);
+            });
 
+        document.querySelector('button').addEventListener('click', e => {
+            e.preventDefault();
+            if (data == '') {
+                alert('Enter body of the post');
+                return;
+            }
+            // alert(data);
+            let photo = document.getElementById("formFile").files[0];
+            let formData = new FormData();
+
+            formData.append("image", photo);
+            formData.append("body", data);
+            formData.append("case", 'posts');
+
+            fetch('../recruiter_api.php', {
+                    method: "POST",
+                    body: formData
+                })
+                .then(e => e.text())
+                .then(e => {
+                    if (e == 'ok') {
+                        alert("Post uploaded");
+                        window.location.reload();
+                    }
+                })
+        })
     </script>
 </body>
 

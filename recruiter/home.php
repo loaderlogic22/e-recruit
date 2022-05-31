@@ -23,17 +23,56 @@ if (!isset($_SESSION['username'])) {
         </h1>
         <div class="row row-cols-2">
             <!-- grid item -->
-            <div class="col col-md-6">
+            <div class="col col-md-3"></div>
+            <div class="col col-md-3">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
                     <div class="card-body">
                         <h5 class="card-title">Post a job</h5>
-                        <p class="card-text">Post a job so that students can apply</p>
+                        <p class="card-text">Post a job to hire employee</p>
                         <a href="posts.php" class="btn btn-primary">Post Now</a>
                     </div>
                 </div>
             </div>
 
+
+            <div class="col col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title">View posts</h5>
+                        <p class="card-text">View all the jobs posted by you</p>
+                        <a href="allposts.php" class="btn btn-primary">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3 mb-3"></div>
+
+            <!-- grid item 2 -->
+            <div class="col col-md-3 "></div>
+            <div class="col col-md-3 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Update profile</h5>
+                        <p class="card-text">Update your old details</p>
+                        <a href="posts.php" class="btn btn-primary">Post Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col col-md-3 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title">View responses</h5>
+                        <p class="card-text">View all responses from candidates</p>
+                        <a href="posts.php" class="btn btn-primary">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3"></div>
 
 
 

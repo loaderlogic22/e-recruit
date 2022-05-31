@@ -54,7 +54,7 @@ switch ($case) {
     case 'posts':
         $bytes = random_bytes(4);
         $post_id = bin2hex($bytes); //unqiue id
-        $rec_id = $_POST['rec_id'];
+        $rec_id = $_SESSION['username'];
         $body = $_POST['body'];
 
         $target_dir = 'uploads/posts/';
