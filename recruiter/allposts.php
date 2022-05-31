@@ -23,47 +23,7 @@ $username = $_SESSION['username'];
 <body>
     <div class="container">
         <div class="table-responsive">
-            <table class="table">
-
-                <tr>
-                    <th>id</th>
-                    <th>Date</th>
-                    <th>Body</th>
-                    <th>Image</th>
-                </tr>
-
-                <?php
-                $sql = "select * from posts where rec_id='$username'";
-                $result = mysqli_query($conn, $sql);
-                if ($result) {
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        echo '
-                        <tr>
-                            <td>
-                                '.$row['id'].'
-                            </td>
-
-                            <td>
-                            '.$row['date'].'
-                            </td>
-
-                            <td>
-                            '.$row['body'].'
-                            </td>
-
-                            <td>
-                            '.$row['image'].'
-                            </td>
-
-                        </tr>
-                        ';
-                    }
-                }
-
-
-                ?>
-
-            </table>
+            
         </div>
     </div>
 </body>
