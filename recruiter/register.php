@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
 include '../connection.php';
-=======
-include("../components/head.php");
->>>>>>> 0ffe9d5e5951c3ed2b66d100f5faa700aca81274
 
 // $id = $_POST['id'];
 // $name = $_POST['name'];
