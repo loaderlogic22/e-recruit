@@ -1,4 +1,5 @@
 <?php
+include "../connection.php";
 session_start();
 if (!isset($_SESSION['username'])) {
     header('location: login.php');
@@ -36,7 +37,26 @@ $username = $_SESSION['username'];
                 $result = mysqli_query($conn, $sql);
                 if ($result) {
                     while ($row = mysqli_fetch_assoc($result)) {
-                        echo '';
+                        echo '
+                        <tr>
+                            <td>
+                                '.$row['id'].'
+                            </td>
+
+                            <td>
+                            '.$row['date'].'
+                            </td>
+
+                            <td>
+                            '.$row['body'].'
+                            </td>
+
+                            <td>
+                            '.$row['image'].'
+                            </td>
+
+                        </tr>
+                        ';
                     }
                 }
 
